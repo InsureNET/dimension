@@ -128,6 +128,10 @@ class Main extends React.Component {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
+            <div>
+              <label htmlFor="artwork-image">Artwork</label>
+              <input type="file" name="artwork-image" id="artwork-image"></input>
+            </div>
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
